@@ -61,9 +61,9 @@ const Testimonial = () => {
                                     <div className="testiDetail">
                                         <img src={user} alt="user" />
                                         <h6 className="my-2"><b>Paul Rosa</b></h6>
-                                        <p className='text-muted'>
+                                        <h5 className='text-muted'>
                                             Co-Founder at GameForm
-                                        </p>
+                                        </h5>
                                         <div className="rating">
                                             <FontAwesomeIcon className='text-warning' icon={faStar} />
                                             <FontAwesomeIcon className='text-warning' icon={faStar} />
@@ -71,43 +71,7 @@ const Testimonial = () => {
                                             <FontAwesomeIcon className='text-warning' icon={faStarHalfAlt} />
                                         </div>
                                         <p className="text-muted p-3">
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                                        </p>
-                                    </div>
-                                </div>
-                                <div>
-                                    <div className="testiDetail">
-                                        <img src={user} alt="user" />
-                                        <h6 className="my-2"><b>Paul Rosa</b></h6>
-                                        <p className='text-muted'>
-                                            Co-Founder at GameForm
-                                        </p>
-                                        <div className="rating">
-                                            <FontAwesomeIcon className='text-warning' icon={faStar} />
-                                            <FontAwesomeIcon className='text-warning' icon={faStar} />
-                                            <FontAwesomeIcon className='text-warning' icon={faStar} />
-                                            <FontAwesomeIcon className='text-warning' icon={faStarHalfAlt} />
-                                        </div>
-                                        <p className="text-muted p-3">
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                                        </p>
-                                    </div>
-                                </div>
-                                <div>
-                                    <div className="testiDetail">
-                                        <img src={user} alt="user" />
-                                        <h6 className="my-2"><b>Paul Rosa</b></h6>
-                                        <p className='text-muted'>
-                                            Co-Founder at GameForm
-                                        </p>
-                                        <div className="rating">
-                                            <FontAwesomeIcon className='text-warning' icon={faStar} />
-                                            <FontAwesomeIcon className='text-warning' icon={faStar} />
-                                            <FontAwesomeIcon className='text-warning' icon={faStar} />
-                                            <FontAwesomeIcon className='text-warning' icon={faStarHalfAlt} />
-                                        </div>
-                                        <p className="text-muted p-3">
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                            Your ASO strategy has been a driving force behind GameForm’s growth.
                                         </p>
                                     </div>
                                 </div>

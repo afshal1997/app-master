@@ -39,7 +39,7 @@ const Section02 = () => {
                 <Col lg={9} className='m-auto text-center position-relative'>
                     <h2 className='text-primary' data-aos="zoom-in">We Helped Over 3,326</h2>
                     <div className="headingText02 text-center mb-4" data-aos="zoom-in">
-                        <h6>Apps with increasing downloads and sales</h6>
+                        <h5>Apps with increasing downloads and sales</h5>
                     </div>
                     <div className="paragraphText text-center text-muted" data-aos="zoom-in">
                         <p>
@@ -90,7 +90,7 @@ const Section02 = () => {
                         </h2>
                     </div>
                     <div className="headingText02 text-center" data-aos="zoom-in">
-                        <h6>Of the app business</h6>
+                        <h5>Of the app business</h5>
                     </div>
                 </Row>
                 <div className="appBoxes mb-5 position-relative">
@@ -112,7 +112,7 @@ const Section02 = () => {
                             <div className="appBox">
                                 <img src={podcastIcon} alt="podcastIcon"></img>
                                 <div className="text-center p-4">
-                                    <h3>#1 App Business  Podcast</h3>
+                                    <h3>#1 App Business Podcast</h3>
                                     <p className="paragraphText01 text-muted">
                                         With over 800 episodes and 1.3M downloads, the App Masters podcast interviews the top thought leaders in the mobile app space.
                                     </p>

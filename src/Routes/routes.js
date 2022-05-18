@@ -7,6 +7,9 @@ export const nonAuthRoutes = [
   },
   {
     path: '/contact-us', page: NonAuthPages.ContantUs
+  },
+  {
+    path: '/audit', page: NonAuthPages.Audit
   }
 ]
 export const authRoutes = [

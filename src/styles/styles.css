@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
 }
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
 @font-face {
     font-family: "Gilroy";
     src: local("Gilroy Regular"),
@@ -13,7 +13,8 @@
 
 html,
 body {
-    font-family: GilroyRegular, Helvetica, Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
     overflow-x: hidden;
 }
 
@@ -52,7 +53,7 @@ h5 {
 
 .navbar-light .navbar-nav .nav-link {
     font-size: 1.1rem;
-    font-weight: 500;
+    font-weight: 600;
     margin: auto 15px;
 }
 
@@ -155,7 +156,7 @@ h5 {
 
 .iconBoxes,
 .appBoxes {
-    margin: 20px auto;
+    margin: 100px auto;
     padding: 1.2rem;
 }
 
@@ -163,10 +164,16 @@ h5 {
     margin: 0;
 }
 
+.paragraphText01 {
+    font-size: 0.9rem;
+}
+
 .iconBox img {
     width: 100%;
-    max-width: 150px;
-    padding: 0.8rem;
+    height: 100%;
+    max-width: 110px;
+    margin-bottom: 30px;
+    max-height: 70px;
 }
 
 .iconBox,
@@ -188,7 +195,7 @@ h5 {
 
 .appBox img {
     width: 100%;
-    max-width: 80px;
+    max-width: 60px;
 }
 
 .section03 {
@@ -441,4 +448,51 @@ img.circleImgLeft{
         -o-transform: rotate(360deg);
         transform: rotate(360deg);
     }
+}
+
+.mainVideoSliderClass iframe {
+    width: 100%;
+    height: 100%;
+    min-height: 180px;
+    margin: 30px auto;
+}
+
+.mainVideoSliderClass .slick-slide.slick-active {
+    position: relative;
+}
+
+.mainVideoSliderClass .slick-slide.slick-active::after {
+    content: '';
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    max-height: calc(100% - 80px);
+    top: 0;
+    bottom: 0;
+    z-index: 999;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.slick-slide.slick-active.slick-center.slick-current::after {
+    content: '';
+    z-index: -2;
+}
+
+.auditMainBanner{
+    background: url('../Assets/Home/mainBannerBg01.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    padding: 100px 10px;
+
+}
+
+.iconBox svg {
+    font-size: 5rem;
+    color: #00b5fd;
+    margin-bottom: 20px;
 }

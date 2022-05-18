@@ -11,9 +11,16 @@ const Section04 = () => {
         <>
             <section className='section04'>
                 <Container className="my-5">
-                    <h1 className="headingText my-5 text-center">
-                        Save Time & Money
-                    </h1>
+                    <Col lg={6} className='m-auto'>
+                        <h1 className="headingText my-5 text-center">
+                            Save Time & Money
+                        </h1>
+                        <div className="mb-5 text-muted text-center paragraphText01">
+                            <p>
+                                The problem is you are busy building a great product which makes you feel like you should be doing more or growing faster. We believe in executing the most impactful, cost-effective app marketing strategies not offering bloated services.
+                            </p>
+                        </div>
+                    </Col>
                     <Row>
                         <Col lg={4} className="text-center mb-4" data-aos="zoom-in">
                             <div className="pricingBox p-3 h-100">

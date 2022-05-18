@@ -1,20 +1,17 @@
 import React from 'react'
 import { Col, Container } from 'react-bootstrap';
 import Slider from 'react-slick/lib/slider';
-import slideImg01 from '../../../Assets/MostPopularVideosSlider/slideImg01.jpg'
-import slideImg02 from '../../../Assets/MostPopularVideosSlider/slideImg02.jpg'
-import slideImg03 from '../../../Assets/MostPopularVideosSlider/slideImg03.jpg'
 
 const VideosSlider = () => {
     var settings = {
         className: "mainVideoSliderClass",
         autoplay: true,
-        autoplaySpeed: 2500,
+        autoplaySpeed: 3500,
         dots: true,
         centerMode: true,
         infinite: true,
         centerPadding: "0px",
-        speed: 1000,
+        speed: 2000,
         slidesToShow: 3,
         slidesToScroll: 1,
         initialSlide: 0,
@@ -60,16 +57,32 @@ const VideosSlider = () => {
                 <Col lg={9} className="text-center mt-5 m-auto">
                     <Slider {...settings}>
                         <div>
-                            <img className='sliderVideo' src={slideImg01} alt="slideImg01" />
+                            <iframe
+                                src="https://www.youtube.com/embed/ChJGy08Kao0"
+                                allowFullScreen="allowFullScreen"
+                                title='youTubeVideo01'>
+                            </iframe>
                         </div>
                         <div>
-                            <img className='sliderVideo' src={slideImg02} alt="slideImg02" />
+                            <iframe
+                                src="https://www.youtube.com/embed/G2AxwfRZ_Gc"
+                                allowFullScreen="allowFullScreen"
+                                title='youTubeVideo02'>
+                            </iframe>
                         </div>
                         <div>
-                            <img className='sliderVideo' src={slideImg03} alt="slideImg03" />
+                            <iframe
+                                src="https://www.youtube.com/embed/MI1dG0rq9Ts"
+                                allowFullScreen="allowFullScreen"
+                                title='youTubeVideo03'>
+                            </iframe>
                         </div>
                         <div>
-                            <img className='sliderVideo' src={slideImg02} alt="slideImg02" />
+                            <iframe
+                                src="https://www.youtube.com/embed/DrxzA2G-XTA"
+                                allowFullScreen="allowFullScreen"
+                                title='youTubeVideo04'>
+                            </iframe>
                         </div>
                     </Slider>
                 </Col>
