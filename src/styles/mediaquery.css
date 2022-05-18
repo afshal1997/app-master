@@ -1,0 +1,94 @@
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+    .customHeading h1 {
+        font-size: 2.8rem;
+    }
+
+    .customHeading h2 {
+        font-size: 2.5rem;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .customHeading h1 {
+        font-size: 2.6rem;
+    }
+
+    .customHeading h2 {
+        font-size: 2.4rem;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 991px) {
+    a.navbar-brand img {
+        max-width: 150px;
+    }
+
+    nav.navbar.navbar-expand-lg.navbar-light {
+        background-color: rgb(255, 255, 255) !important;
+        text-align: center;
+    }
+
+    .customHeading h1,
+    .customHeading h2 {
+        font-size: 1.8rem;
+    }
+
+    .customHeading h1::before,
+    .customHeading h2::after {
+        display: none;
+    }
+
+    .ourCustomer h2::after {
+        display: none;
+    }
+
+    .laptopImg {
+        position: relative;
+        max-width: 100%;
+    }
+
+    .platformText h1 {
+        font-size: 2rem;
+    }
+
+    .footer {
+        text-align: center;
+    }
+
+    .footerLogo {
+        max-width: 230px;
+        margin-bottom: 30px;
+    }
+
+    img.circleImgLeft,
+    img.circleImgRight {
+        max-width: 110px;
+    }
+
+    img.circleImgLeft {
+        left: -20%;
+        top: -50px;
+    }
+}
+
+
+@media only screen and (max-width: 1366px) and (min-width: 1076px) {
+    .laptopImg {
+        position: absolute;
+        top: 100px;
+        max-width: 560px;
+        right: 0;
+    }
+}
+
+
+@media only screen and (max-width: 1077px) and (min-width: 992px) {
+    .laptopImg {
+        position: absolute;
+        top: 0;
+        margin: auto;
+        bottom: 0px;
+        max-width: 460px;
+        right: 0;
+    }
+}

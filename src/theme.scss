@@ -1,0 +1,14 @@
+:root {
+  --font-family-raleway: sans-serif;
+}
+$primary: #001a40;
+$danger: #ff4136;
+$warning: #ffa200;
+$theme-colors: (
+  "primary": $primary,
+  "danger": $danger,
+  "warning": $warning
+);
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+@import "node_modules/bootstrap/scss/bootstrap";
