@@ -47,8 +47,8 @@ const Header = () => {
             <Nav.Link as={Link} to="/">Home</Nav.Link>
             <Nav.Link as={Link} to="/audit">Audit</Nav.Link>
             <Nav.Link as={Link} to="/">Pricing</Nav.Link>
-            <Nav.Link as={Link} to="/">Videos</Nav.Link>
-            <Nav.Link as={Link} to="/">Product</Nav.Link>
+            <Nav.Link href="https://www.youtube.com/appmasters">Videos</Nav.Link>
+            <Nav.Link href="https://anchor.fm/app-marketing-podcast">Podcast</Nav.Link>
             <Nav.Link as={Link} to="/contact-us" className="customBtn text-white">Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>

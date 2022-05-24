@@ -1,8 +1,5 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
-import youtubeIcon from '../../../Assets/BrandIcons/youtube.png'
-import foundersIcon from '../../../Assets/BrandIcons/founders.png'
-import podcastIcon from '../../../Assets/BrandIcons/podcast.png'
 import circle from '../../../Assets/Shapes/circle.png'
 import { faDesktop, faParking } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -76,11 +73,11 @@ const Section01 = () => {
                 <div className="appBoxes mb-5 position-relative">
                     <img className='circleImgLeft' src={circle} alt="circle" />
                     <Row>
-                        <Col lg={5} className='m-auto' data-aos="zoom-in">
-                            <div className="appBox">
+                        <Col lg={4} className='m-auto' data-aos="zoom-in">
+                            <div className="appBox shadow">
                                 <div className="p-4 text-start">
                                     <h2 className='text-primary'>The Basics</h2>
-                                    <p className="paragraphText01 text-muted mb-0">
+                                    <p className="paragraphText01 text-muted">
                                         Get your app audited during our weekly YouTube Live Streams – every Friday at 9am PST!
                                     </p>
                                     <ul className='text-start'>
@@ -97,7 +94,7 @@ const Section01 = () => {
                                             15-minute segment on YouTube live stream
                                         </li>
                                         <li>
-                                            <del>All-new advanced conversion techniques</del>>
+                                            <del>All-new advanced conversion techniques</del>
                                         </li>
                                         <li>
                                             <del>ASO audit with advanced strategies</del>
@@ -109,12 +106,12 @@ const Section01 = () => {
                             </div>
                         </Col>
 
-                        <Col lg={5} className='m-auto' data-aos="zoom-out">
-                            <div className="appBox">
+                        <Col lg={4} className='m-auto' data-aos="zoom-out">
+                            <div className="appBox shadow">
                                 <div className="p-4 text-start">
                                     <h2 className='text-primary'>The Go Getter</h2>
-                                    <p className="paragraphText01 text-muted mb-0">
-                                        Get your app audited during our weekly YouTube Live Streams – every Friday at 9am PST!
+                                    <p className="paragraphText01 text-muted">
+                                        Skip the long line from our basic app audit and get 1-on-1 consultation with Steve P. Young.
                                     </p>
                                     <ul className='text-start'>
                                         <li>
@@ -130,14 +127,14 @@ const Section01 = () => {
                                             15-minute segment on YouTube live stream
                                         </li>
                                         <li>
-                                            <del>All-new advanced conversion techniques</del>>
+                                            All-new advanced conversion techniques
                                         </li>
                                         <li>
-                                            <del>ASO audit with advanced strategies</del>
+                                            ASO audit with advanced strategies
                                         </li>
                                     </ul>
-                                    <h2 className='text-primary'>FREE</h2>
-                                    <p>1 month wait</p>
+                                    <h2 className='text-primary'>$299</h2>
+                                    <p>Call within a week of signing up</p>
                                 </div>
                             </div>
                         </Col>
