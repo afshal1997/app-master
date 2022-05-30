@@ -10,6 +10,9 @@ export const nonAuthRoutes = [
   },
   {
     path: '/audit', page: NonAuthPages.Audit
+  },
+  {
+    path: '/pricing', page: NonAuthPages.Pricing
   }
 ]
 export const authRoutes = [

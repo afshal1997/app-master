@@ -69,6 +69,17 @@
         left: -20%;
         top: -50px;
     }
+    .pricingtabs{
+        max-width: 100%;
+    }
+    a.getStarted.card-link{
+        position: relative !important;
+        bottom: 0;
+    }
+    .PricingTabs,
+    .auditMainBanner{
+        background-attachment: scroll;
+    }
 }
 
 

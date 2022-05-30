@@ -11,14 +11,9 @@ const Section01 = () => {
             <img className='circleImgRight' src={circle} alt="circle" />
             <Container>
                 <Col lg={9} className='m-auto text-center position-relative mt-5'>
-                    <h2 className='text-primary' data-aos="zoom-in">Get Expert Feedback to Grow</h2>
+                    <h2 className='text-primary' data-aos="zoom-in">Uncover Untapped Download and Revenue</h2>
                     <div className="headingText02 text-center mb-4" data-aos="zoom-in">
-                        <h5>Your App Downloads & Revenue</h5>
-                    </div>
-                    <div className="paragraphText text-center text-muted" data-aos="zoom-in">
-                        <p>
-                            We will audit your app to scale up your revenue and scale down your time. Consultation on the right growth strategies and key product features to help better engage your users and increase your monetization.
-                        </p>
+                        <h5>Opportunities Faster Than Ever</h5>
                     </div>
                 </Col>
                 <Row>
