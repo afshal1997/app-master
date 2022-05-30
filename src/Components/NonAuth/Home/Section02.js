@@ -102,7 +102,7 @@ const Section02 = () => {
                                 <div className="text-center p-4">
                                     <h3>#1 Marketing Youtube Channel</h3>
                                     <p className="paragraphText01 text-muted">
-                                        With over 13K subscribers, our videos reveals step-by-step strategies to increase downloads, retention, and monetization.
+                                        With over 25K subscribers, our videos reveals step-by-step strategies to increase downloads, retention, and monetization.
                                     </p>
                                 </div>
                             </div>

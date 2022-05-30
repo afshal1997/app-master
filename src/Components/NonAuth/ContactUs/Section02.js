@@ -9,7 +9,7 @@ const Section02 = () => {
           <Col lg={8} className='m-auto'>
             <h2 className='text-primary headingText text-center mt-5' data-aos="zoom-in">Schedule a Free Strategy Call</h2>
             <div className="headingText02 text-center mb-4" data-aos="zoom-in">
-              <h4>Try the best way to grow your app’s downloads and revenue</h4>
+              <h4>The best way to grow your app’s downloads and revenue</h4>
             </div>
             <div className="paragraphText text-center text-muted" data-aos="zoom-in">
               <p>

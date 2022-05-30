@@ -15,10 +15,10 @@ const Section03 = () => {
                                     Business & Marketing
                                 </h6>
                                 <h1 className="my-3" data-aos="zoom-in">
-                                    You Can Control Whole Things From One Platform.
+                                    The Latest Strategies to Increase Your Downloads & Sales
                                 </h1>
                                 <p className="mb-5" data-aos="zoom-in">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                                Whether it is through our expert guests who break-down their strategies on our YouTube channel or the many tests and strategies we run for our clients, we accumulate a lot of data on what’s working in the app business today. Working with us means you are working with the “encyclopedia” of the app business.
                                 </p>
                             </div>
                             <div className="customLink" data-aos="zoom-in">
