@@ -70,7 +70,7 @@ const Section03 = () => {
                         </Col>
                     </Row>
                     <Col lg={3} className="m-auto mt-5">
-                        <Link to='/' className="customBtn text-white">See Pricing</Link>
+                        <Link to='/pricing' className="customBtn text-white">See Pricing</Link>
                     </Col>
                 </Container>
             </section>

@@ -12,7 +12,7 @@ const MainBanner = () => {
                         <h1 className='text-primary' data-aos="fade-down">Transform Your App Start-Up</h1>
                         <h2 className='text-primary' data-aos="fade-right">Into An App Empire</h2>
                         <Col lg={3} className='m-auto mt-5 mb-5' data-aos="fade-left">
-                            <Link to='/' className="customBtn text-white">See Pricing</Link>
+                            <Link to='/pricing' className="customBtn text-white">See Pricing</Link>
                         </Col>
                         <Col lg={8} className='m-auto my-5' data-aos="fade-up">
                             <img className='w-100' src={mainBannerImg01} alt="mainBannerImg01"></img>

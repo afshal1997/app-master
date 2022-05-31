@@ -73,7 +73,12 @@ const PricingTabs = () => {
                                             </li>
                                         </ul>
                                     </Card.Text>
-                                    <Card.Link className='getStarted' href="#">Get Started</Card.Link>
+                                    <div className={isActive ? 'd-block' : 'd-none'}>
+                                        <Card.Link className='getStarted' href="https://buy.stripe.com/14k159dyH1eS3vyaEM">Get Started</Card.Link>
+                                    </div>
+                                    <div className={isActive ? 'd-none' : 'd-block'}>
+                                        <Card.Link className='getStarted' href="https://buy.stripe.com/eVaaFJ52bcXA1nqfYY">Get Started</Card.Link>
+                                    </div>
                                 </Card.Body>
                             </Card>
                         </Col>
@@ -83,7 +88,7 @@ const PricingTabs = () => {
                                     <h2>Growth</h2>
                                     <h5 className={isActive ? "d-block" : 'd-none'}>$970 / mo</h5>
                                     <h5 className={isActive ? "d-none" : 'd-block'}>$1,270 / mo</h5>
-                                    <h5 className="text-muted"></h5>
+                                    
                                     <Card.Text>
                                         <ul>
                                             <li>
@@ -109,7 +114,12 @@ const PricingTabs = () => {
                                             </li>
                                         </ul>
                                     </Card.Text>
-                                    <Card.Link className='getStarted' href="#">Get Started</Card.Link>
+                                    <div className={isActive ? 'd-block' : 'd-none'}>
+                                        <Card.Link className='getStarted' href="https://buy.stripe.com/00g3dh7ajbTw8PS3cl">Get Started</Card.Link>
+                                    </div>
+                                    <div className={isActive ? 'd-none' : 'd-block'}>
+                                        <Card.Link className='getStarted' href="https://buy.stripe.com/5kAg03fGPcXAc24001">Get Started</Card.Link>
+                                    </div>
                                 </Card.Body>
                             </Card>
                         </Col>
@@ -145,7 +155,12 @@ const PricingTabs = () => {
                                             </li>
                                         </ul>
                                     </Card.Text>
-                                    <Card.Link className='getStarted' href="#">Get Started</Card.Link>
+                                    <div className={isActive ? 'd-block' : 'd-none'}>
+                                        <Card.Link className='getStarted' href="https://buy.stripe.com/5kAeVZfGP8Hk2ruaEG">Get Started</Card.Link>
+                                    </div>
+                                    <div className={isActive ? 'd-none' : 'd-block'}>
+                                        <Card.Link className='getStarted' href="https://buy.stripe.com/5kAeVZbqzf5I1nqbIO">Get Started</Card.Link>
+                                    </div>
                                 </Card.Body>
                             </Card>
                         </Col>
@@ -178,7 +193,12 @@ const PricingTabs = () => {
                                             </li>
                                         </ul>
                                     </Card.Text>
-                                    <Card.Link className='getStarted' href="#">Get Started</Card.Link>
+                                    <div className={isActive ? 'd-block' : 'd-none'}>
+                                        <Card.Link className='getStarted' href="https://buy.stripe.com/dR6eVZcuD7Dg8PS28b">Get Started</Card.Link>
+                                    </div>
+                                    <div className={isActive ? 'd-none' : 'd-block'}>
+                                        <Card.Link className='getStarted' href="https://buy.stripe.com/6oE015bqz9Lofeg6ov">Get Started</Card.Link>
+                                    </div>
                                 </Card.Body>
                             </Card>
                         </Col>

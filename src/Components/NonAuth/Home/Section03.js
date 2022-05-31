@@ -22,8 +22,7 @@ const Section03 = () => {
                                 </p>
                             </div>
                             <div className="customLink" data-aos="zoom-in">
-                                <Link to="/">Our Pricing</Link>
-                                <Link to="/">Learn More</Link>
+                                <Link to="/pricing">Our Pricing</Link>
                             </div>
                         </Col>
                         <Col lg={5} className="p-0" data-aos="fade-left">
